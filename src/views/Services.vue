@@ -1,11 +1,11 @@
 <template>
   <v-container>
-    <h1>Home View</h1>
+    <h1>Services View</h1>
   </v-container>
 </template>
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Services'
 }
 </script>

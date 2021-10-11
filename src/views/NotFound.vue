@@ -1,11 +1,11 @@
 <template>
   <v-container>
-    <h1>Home View</h1>
+    <h1>Not Found View</h1>
   </v-container>
 </template>
 
 <script>
 export default {
-  name: 'Home'
+  name: 'NotFound'
 }
 </script>
