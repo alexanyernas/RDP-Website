@@ -1,21 +1,35 @@
 <template>
   <v-app>
     <NavBar />
+    <MenuSocials />
     <v-main>
       <router-view />
+      <Footer />
     </v-main>
   </v-app>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
-import MenuSocials from './components/MenuSocials.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
-    MenuSocials
+    Footer
   }
 }
 </script>
+
+<style>
+*
+{
+  font-family: 'Work Sans', sans-serif;
+}
+
+.playball
+{
+  font-family: 'Playball', cursive;
+}
+</style>

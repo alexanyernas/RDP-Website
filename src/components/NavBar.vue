@@ -1,44 +1,61 @@
 <template>
     <v-app-bar
         app
-        color="primary"
+        color="#000"
         dark
+        elevate-on-scroll
+        elevation="6"
+        class="px-16"
     >
-        <div class="d-flex align-center">
-        <v-img
-            alt="Vuetify Logo"
-            class="shrink mr-2"
-            contain
-            src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-            transition="scale-transition"
-            width="40"
-        />
-
-        <v-img
-            alt="Vuetify Name"
-            class="shrink mt-1 hidden-sm-and-down"
-            contain
-            min-width="100"
-            src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-            width="100"
-        />
-        </div>
+        <v-toolbar-title>
+            Relieves Del Pozo
+        </v-toolbar-title>
 
         <v-spacer></v-spacer>
-
-        <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
+        
+        <v-btn 
+            v-for="(link, index) in links" 
+            :key="index" 
+            :to="link.to"
+            text
+            class="mr-2"
         >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+            {{ link.text }}
         </v-btn>
+        
+        <v-spacer></v-spacer>
+
+        <div class="mt-3">
+            <p>Comunícate con nosotros<br>Llama: +58 212 238 4094</p>
+        </div>
+
     </v-app-bar>
 </template>
 
 <script>
 export default {
-    name: 'NavBar'
+    name: 'NavBar',
+    data () {
+        return {
+            links: [
+                {
+                    text: 'Inicio',
+                    to: '/'
+                },
+                {
+                    text: 'Nosotros',
+                    to: '/about'
+                },
+                {
+                    text: 'Servicios',
+                    to: '/services'
+                },
+                {
+                    text: 'Contacto',
+                    to: '/contact'
+                }
+            ]
+        }
+    }
 }
 </script>
