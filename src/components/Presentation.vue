@@ -1,5 +1,5 @@
 <template>
-    <v-row class="row">
+    <v-row class="row mb-16">
         <v-container>
             <v-col cols="7" class="py-16">
                 <h1 class="playball mb-2">{{ title }}</h1>

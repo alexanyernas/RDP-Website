@@ -1,11 +1,10 @@
 <template>
   <v-app>
     <NavBar />
-    <MenuSocials />
     <v-main>
       <router-view />
-      <Footer />
     </v-main>
+    <Footer />
   </v-app>
 </template>
 

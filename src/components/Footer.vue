@@ -1,5 +1,5 @@
 <template>
-  <v-container class="mt-15">
+  <v-container class="mt-16">
     <v-row>
       <v-col cols="12" xs="12" lg="3">
         <div>
@@ -21,9 +21,35 @@
           <p class="mb-1">Viernes: 7.00 am - 3.30 pm</p>
         </div>
         <div class="mt-8">
-          <v-icon color="#000" class="mr-5 icon">mdi-facebook</v-icon>
-          <v-icon color="#000" class="mr-5 icon">mdi-instagram</v-icon>
-          <v-icon color="#000" class="icon">mdi-whatsapp</v-icon>
+          <v-btn
+            href="#"
+            target="_BLANK"
+            rel="noopener noreferrer"
+            fab
+            elevation="2"
+            class="mr-2"
+          >
+            <v-icon color="#000" class="icon">mdi-facebook</v-icon>
+          </v-btn>
+          <v-btn
+            href="#"
+            target="_BLANK"
+            rel="noopener noreferrer"
+            fab
+            elevation="2"
+            class="mr-2"
+          >
+            <v-icon color="#000" class="icon">mdi-instagram</v-icon>
+          </v-btn>
+          <v-btn
+            href="#"
+            target="_BLANK"
+            rel="noopener noreferrer"
+            fab
+            elevation="2"
+          >
+            <v-icon color="#000" class="icon">mdi-whatsapp</v-icon>
+          </v-btn>
         </div>
       </v-col>
       
