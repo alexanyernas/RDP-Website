@@ -31,4 +31,20 @@ export default {
 {
   font-family: 'Playball', cursive;
 }
+
+::-webkit-scrollbar 
+{
+  width: .6rem;
+  border-radius: .5rem;
+}
+::-webkit-scrollbar-thumb 
+{
+  background-color: #EFB810;
+  border-radius: .5rem;
+}
+::-webkit-scrollbar-thumb:hover
+{
+  background-color: #1E88E5;
+}
+
 </style>
