@@ -4,9 +4,9 @@
       title="Sobre Nosotros"
       subtitle="Conoce mucho más de nuestra historia y de todas aquellas cosas que tenemos para ofrecerte al elegirnos."
     />
-    <v-row class="mt-16 mb-16">
+    <v-row class="mb-16">
       <v-col class="ml-16">
-        <img src="../assets/16.jpg" height="320" alt="16">
+        <img src="../assets/16.jpg" alt="16">
       </v-col>  
       <v-col class="col-blue">
         <h2>Somos la opción perfecta a elegir para ti</h2>
@@ -29,16 +29,16 @@
       </v-col>  
     </v-row>
     
-    <v-row>
+    <v-row class="mb-16">
       <v-col class="col-black"> 
         <h2>¿Por qué elegirnos?</h2>
         <p>Te ofrecemos muchas más razones de porqué no debes dudar en comunicarte con nosotros para realizar tus proyectos.</p>
         <v-list>
-          <v-list-item><v-icon>mdi-check-circle</v-icon> Atención totalmente exclusiva</v-list-item>
-          <v-list-item><v-icon>mdi-check-circle</v-icon> Respuestas al instante</v-list-item>
-          <v-list-item><v-icon>mdi-check-circle</v-icon> Calidad en el desarrollo</v-list-item>
-          <v-list-item><v-icon>mdi-check-circle</v-icon> Experiencia en el área</v-list-item>
-          <v-list-item><v-icon>mdi-check-circle</v-icon> Precios competitivos</v-list-item>
+          <v-list-item><v-icon color="#EFB810">mdi-check-circle</v-icon> Atención totalmente exclusiva</v-list-item>
+          <v-list-item><v-icon color="#EFB810">mdi-check-circle</v-icon> Respuestas al instante</v-list-item>
+          <v-list-item><v-icon color="#EFB810">mdi-check-circle</v-icon> Calidad en el desarrollo</v-list-item>
+          <v-list-item><v-icon color="#EFB810">mdi-check-circle</v-icon> Experiencia en el área</v-list-item>
+          <v-list-item><v-icon color="#EFB810">mdi-check-circle</v-icon> Precios competitivos</v-list-item>
         </v-list>
       </v-col>  
       <v-col>

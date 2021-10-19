@@ -1,7 +1,7 @@
 <template>
     <v-row class="row mb-16 pt-6">
         <v-col class="px-16 my-auto">
-            <h1 class="playball mb-10">Presencia en la Impresión, es Nuestra Excelencia.</h1>
+            <h1 class="playball mb-10">Presencia de la excelencia en la impresión...!</h1>
             <v-btn class="py-6" color="#EFB810" to="/about">Conoce sobre nosotros<v-icon class="ml-3">mdi-arrow-right</v-icon></v-btn>
         </v-col>
         <v-col>

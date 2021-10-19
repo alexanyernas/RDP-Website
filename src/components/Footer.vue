@@ -5,7 +5,7 @@
         <div>
           <h3 class="mb-6">Relieves Del Pozo</h3>
           <h5>Dirección</h5>
-          <p>Cl. Tiuna, Edificio Tony, Piso 1, Local A, Urbanización Boleita, Caracas, Distrito Capital, Gran Caracas, Venezuela.</p>
+          <p>Calle Tiuna, Edificio Tony, Piso 1, Local A, Boleita Norte, Caracas 1071, Estado Miranda, Venezuela</p>
           <h5 class="mt-10">Llámanos</h5>
           <p>+58 212 238 4094</p>
         </div>
